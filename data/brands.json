@@ -1,0 +1,32 @@
+[
+  {
+    "id": "b-apple",
+    "name": "Apple",
+    "slug": "apple",
+    "logo": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=100&q=80"
+  },
+  {
+    "id": "b-samsung",
+    "name": "Samsung",
+    "slug": "samsung",
+    "logo": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=100&q=80"
+  },
+  {
+    "id": "b-sony",
+    "name": "Sony",
+    "slug": "sony",
+    "logo": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=100&q=80"
+  },
+  {
+    "id": "b-asus",
+    "name": "ASUS",
+    "slug": "asus",
+    "logo": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=100&q=80"
+  },
+  {
+    "id": "b-nvidia",
+    "name": "Nvidia",
+    "slug": "nvidia",
+    "logo": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=100&q=80"
+  }
+]

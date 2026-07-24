@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cat-laptops",
+    "name": "Laptops",
+    "slug": "laptops",
+    "image": "https://images.unsplash.com/photo-1496181130204-755241524eab?w=400&q=80"
+  },
+  {
+    "id": "cat-smartphones",
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&q=80"
+  },
+  {
+    "id": "cat-headphones",
+    "name": "Headphones",
+    "slug": "headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80"
+  },
+  {
+    "id": "cat-smartwatches",
+    "name": "Smart Watches",
+    "slug": "smartwatches",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80"
+  },
+  {
+    "id": "cat-gaming",
+    "name": "Gaming Consoles",
+    "slug": "gaming-consoles",
+    "image": "https://images.unsplash.com/photo-1486401899868-0e435fc85728?w=400&q=80"
+  },
+  {
+    "id": "cat-monitors",
+    "name": "Monitors",
+    "slug": "monitors",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&q=80"
+  },
+  {
+    "id": "cat-components",
+    "name": "Graphics Cards",
+    "slug": "graphics-cards",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&q=80"
+  }
+]

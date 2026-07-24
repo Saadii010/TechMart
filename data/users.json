@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user-super",
+    "name": "Super Administrator",
+    "email": "superadmin@techmart.com",
+    "passwordHash": "$2a$10$7R5vMbyV15eW59aVw/8FfeWvV4qscP5b3G0i3H2Nf1K49j9295w6G",
+    "role": "superadmin",
+    "phone": "+1 000 000 0000",
+    "address": "000 Cloud Center, Global Headquarters",
+    "createdAt": "2026-07-24T09:46:46.947Z"
+  },
+  {
+    "id": "usr-1784890665646",
+    "name": "Saad khan ",
+    "email": "123@gmail.com",
+    "passwordHash": "$2b$10$MmQgl5EZ33Axzxs9UJYGoe/UBSTrEe6BXgZ.ihZh0oXmwPvoo4Z92",
+    "role": "customer",
+    "phone": "+1 000 000 0000",
+    "address": "000 Cloud Center, Global Headquarters",
+    "createdAt": "2026-07-24T10:57:45.646Z"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "TechMart",
+  "description": "TechMart is a premium full-stack electronics e-commerce marketplace powered by Google Gemini, featuring a live shop, real-time AI Shopping Assistant, order tracking, admin controls, and custom analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
