@@ -1,25 +1,25 @@
 # TechMart
 
-TechMart is a full-stack e-commerce web application developed using the MERN stack. The project was built to provide a modern online shopping experience with secure user authentication, product management, and an AI-powered chatbot for customer assistance.
+TechMart is a full-stack e-commerce web application built using the MERN stack. The project demonstrates the development of a modern online shopping platform with secure authentication, product management, and AI-powered customer assistance.
 
-The frontend is built with React, TypeScript, and Vite, while the backend uses Node.js, Express.js, and MongoDB. Google Gemini API is integrated to enhance customer interaction by answering product-related queries and providing intelligent shopping assistance.
+The application is developed with React, TypeScript, and Vite on the frontend, while the backend is powered by Node.js, Express.js, and MongoDB. Google Gemini API is integrated to provide an AI chatbot that assists users with product-related queries and shopping guidance.
 
-The project focuses on building a responsive, scalable, and user-friendly e-commerce platform while following modern web development practices.
+The project is intended as a portfolio and learning project, showcasing modern web development practices, RESTful API development, database integration, authentication, and AI integration.
 
 ---
 
 ## Features
 
-- User registration and login
-- JWT-based authentication
-- AI chatbot powered by Google Gemini
-- Product listing and management
-- Admin dashboard
-- Responsive design
-- REST API integration
-- MongoDB database
+- User registration and authentication
+- JWT-based authorization
 - Secure password hashing with Bcrypt
-- Fast frontend using Vite
+- Product listing and management
+- AI chatbot powered by Google Gemini
+- Admin dashboard
+- REST API integration
+- MongoDB database support
+- Responsive user interface
+- Fast development environment using Vite
 
 ---
 
@@ -46,7 +46,7 @@ The project focuses on building a responsive, scalable, and user-friendly e-comm
 
 ### Authentication
 
-- JWT
+- JSON Web Token (JWT)
 - Bcrypt.js
 
 ### AI Integration
@@ -58,12 +58,12 @@ The project focuses on building a responsive, scalable, and user-friendly e-comm
 ## Project Structure
 
 ```text
-TechMart
+TechMart/
 │
-├── src/
-├── server/
-├── data/
-├── assets/
+├── src/                 Frontend source code
+├── server/              Backend source code
+├── data/                Sample data
+├── assets/              Static assets
 ├── package.json
 ├── server.ts
 └── README.md
@@ -71,33 +71,52 @@ TechMart
 
 ---
 
-## Installation
+## Getting Started
 
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Saadii010/TechMart.git
 ```
 
-Move into the project directory:
+### 2. Navigate to the Project Directory
 
 ```bash
 cd TechMart
 ```
 
-Install the required packages:
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env.local` file and add the required environment variables:
+### 4. Configure Environment Variables
+
+Create a file named `.env.local` in the project root and configure the required environment variables.
 
 ```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-MONGODB_URI=YOUR_MONGODB_URI
-JWT_SECRET=YOUR_SECRET_KEY
+MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
+JWT_SECRET=YOUR_JWT_SECRET
 ```
+
+> **Note**
+>
+> This repository does **not** include API keys, database credentials, or secret configuration files.
+>
+> To run the project locally, you must:
+>
+> - Create your own MongoDB database (local or MongoDB Atlas).
+> - Update the `MONGODB_URI` with your database connection string.
+> - Generate your own `JWT_SECRET`.
+> - Obtain a valid Google Gemini API key and add it to the environment variables.
+>
+> Without these configurations, the backend services and AI chatbot will not function correctly.
+
+---
+
+## Running the Application
 
 Start the development server:
 
@@ -105,7 +124,13 @@ Start the development server:
 npm run dev
 ```
 
-To create a production build:
+The application will start in development mode.
+
+---
+
+## Production Build
+
+To generate a production build:
 
 ```bash
 npm run build
@@ -115,15 +140,17 @@ npm run build
 
 ## Future Improvements
 
-Some features planned for future updates include:
+Planned enhancements include:
 
-- Online payment integration
+- Online payment gateway integration
+- Shopping cart persistence
 - Wishlist functionality
 - Product reviews and ratings
 - Order tracking
 - Email notifications
-- AI-based product recommendations
+- AI-powered product recommendations
 - Multi-language support
+- Cloud deployment
 
 ---
 
@@ -139,4 +166,4 @@ GitHub: https://github.com/Saadii010
 
 ## License
 
-This project is intended for educational and portfolio purposes. Feel free to explore the code and use it as a learning resource.
+This project is provided for educational and portfolio purposes. You are welcome to explore, learn from, and modify the source code for personal or educational use.
