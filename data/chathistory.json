@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "chat-1785015184223",
+    "userId": "user-super",
+    "userName": "Super Administrator",
+    "query": "Best laptop under $2500?",
+    "response": "Here is the best laptop recommendation under $2,500 available in our store:\n\n* **ASUS ROG Strix G16 Gaming Laptop** — **$2,023.08** *(Orig. $2,199.00 | 8% OFF)*\n  * **Why choose this:** High-performance Intel i9-14900HX CPU paired with an RTX 4070 GPU and a fluid 240Hz QHD+ display, providing unmatched gaming and creative power under budget.\n\n| Specification | Technical Details |\n| :--- | :--- |\n| **Processor** | Intel Core i9-14900HX (24 Cores, up to 5.8 GHz) |\n| **Graphics** | NVIDIA GeForce RTX 4070 8GB GDDR6 |\n| **Memory & Storage** | 32GB DDR5 RAM | 1TB NVMe M.2 SSD |\n| **Display** | 16\" QHD+ ROG Nebula Display (240Hz, 3ms) |\n\n**Recommended Accessory:**\n* **Sony WH-1000XM5 Headphones** — **$339.15** *(15% OFF)*\n  * **Why choose this:** Industry-leading noise cancellation perfect for immersive gaming or audio work.\n\n💡 *Tip: Use coupon code **SUPER50** at checkout to get an additional $50 off your order! You can click the UI buttons on your screen to add products to your cart.*",
+    "createdAt": "2026-07-25T21:33:04.223Z"
+  },
+  {
+    "id": "chat-1785015198286",
+    "userId": "user-super",
+    "userName": "Super Administrator",
+    "query": "Best laptop under $2500?",
+    "response": "Here is the top laptop available under your $2,500 budget:\n\n* **ASUS ROG Strix G16 Gaming Laptop** — **$2,023.08** *(Reg. $2,199 | 8% OFF | In Stock)*\n  * *Reason:* Offers workstation/gaming power with an Intel i9-14900HX processor, RTX 4070 GPU, 32GB DDR5 RAM, and a stunning 240Hz QHD+ display.\n\n*(Note: The MacBook Pro 16\" M3 Max is currently $3,324.05, which exceeds your $2,500 limit).*\n\n**Recommended Accessory:**\n* **Sony WH-1000XM5 Wireless Headphones** — **$339.15** *(Reg. $399 | 15% OFF)*\n  * *Reason:* Provides top-tier noise cancellation and high-fidelity sound for work and gaming.\n\n💡 **Savings Tip:** Apply coupon code **SUPER50** at checkout to take an additional **$50 OFF** your order!",
+    "createdAt": "2026-07-25T21:33:18.286Z"
+  },
+  {
+    "id": "chat-1785015207027",
+    "userId": "user-super",
+    "userName": "Super Administrator",
+    "query": "Best laptop under $2500?",
+    "response": "The best laptop under $2,500 currently available in our store is:\n\n* **ASUS ROG Strix G16 Gaming Laptop** – **$2,023.08** *(Original: $2,199.00 – 8% OFF)*\n  * **Why it's great:** Offers top-tier performance with an Intel i9-14900HX, RTX 4070 GPU, 32GB DDR5 RAM, and a ultra-smooth 16\" 240Hz QHD+ display.\n\n*(Note: Our MacBook Pro 16\" M3 Max is priced at $3,324.05, which exceeds your $2,500 budget).*\n\n**Recommended Accessory:**\n* **Sony WH-1000XM5 Wireless Headphones** – **$339.15** *(15% OFF)*: Industry-leading noise cancellation perfect for gaming and productivity.\n\n**Savings Tip:** You can apply promo code **TECH10** or **SUPER50** during checkout. Simply click the UI buttons on your screen to add products to your cart!",
+    "createdAt": "2026-07-25T21:33:27.027Z"
+  }
+]

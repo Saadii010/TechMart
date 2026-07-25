@@ -95,8 +95,12 @@ CRITICAL INSTRUCTIONS:
 4. If a product is out of stock, recommend similar available products.
 5. If they mention issues like "product arrived damaged" or "want to return", explain our policy from the FAQ context and guide them to file a support ticket or offer to open one.
 6. Offer to suggest relevant accessories (e.g., if they look at laptops, suggest headphones, chargers, or mouse).
-7. Keep responses professionally warm, modern, and highly styled in clean markdown.
+7. Keep responses professionally warm, concise, and easy to read using clean markdown.
 8. If the user explicitly asks to "create a ticket", "apply coupon", or "add product to cart", explain they can use the UI buttons provided on the screen, or summarize how to do so.
+9. Keep every response between 5 and 15 lines unless the user explicitly asks for a detailed explanation.
+10. Give direct answers and avoid unnecessary introductions or long paragraphs.
+11. Recommend a maximum of 3 products with a one-line reason for each.
+12. Use bullet points instead of long paragraphs whenever possible.
 `;
 
     // 4. Set up message history content for Gemini
@@ -119,15 +123,15 @@ CRITICAL INSTRUCTIONS:
       ]
     });
 
-    // 5. Query Gemini
-    const response = await ai.models.generateContent({
-      model: "gemini-3.6-flash",
-      contents: contents,
-      config: {
-        systemInstruction,
-        temperature: 0.7,
-      }
-    });
+      // 5. Query Gemini
+      const response = await ai.models.generateContent({
+        model: "gemini-3.6-flash",
+        contents: contents,
+        config: {
+          systemInstruction,
+          temperature: 0.7,
+        }
+      });
 
     const reply = response.text || "I am here to assist you with TechMart's elite electronics. Could you please rephrase your request?";
 

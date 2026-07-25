@@ -1,0 +1,29 @@
+[
+  {
+    "id": "c-tech10",
+    "code": "TECH10",
+    "discountType": "percentage",
+    "discountValue": 10,
+    "minPurchase": 100,
+    "isActive": true,
+    "expiryDate": "2027-12-31"
+  },
+  {
+    "id": "c-super50",
+    "code": "SUPER50",
+    "discountType": "fixed",
+    "discountValue": 50,
+    "minPurchase": 500,
+    "isActive": true,
+    "expiryDate": "2027-12-31"
+  },
+  {
+    "id": "c-welcome20",
+    "code": "WELCOME20",
+    "discountType": "percentage",
+    "discountValue": 20,
+    "minPurchase": 50,
+    "isActive": true,
+    "expiryDate": "2027-12-31"
+  }
+]
