@@ -1,26 +1,25 @@
-# TechMart – E-Commerce Platform
+# TechMart
 
-## Overview
+TechMart is a full-stack e-commerce web application developed using the MERN stack. The project was built to provide a modern online shopping experience with secure user authentication, product management, and an AI-powered chatbot for customer assistance.
 
-TechMart is a modern e-commerce web application built with React, TypeScript, Node.js, Express, and MongoDB. The platform provides a smooth shopping experience while integrating AI features to improve customer interaction and support.
+The frontend is built with React, TypeScript, and Vite, while the backend uses Node.js, Express.js, and MongoDB. Google Gemini API is integrated to enhance customer interaction by answering product-related queries and providing intelligent shopping assistance.
 
-The project includes both frontend and backend functionality with a responsive user interface, secure API communication, database integration, and an AI-powered chat assistant.
+The project focuses on building a responsive, scalable, and user-friendly e-commerce platform while following modern web development practices.
 
 ---
 
 ## Features
 
-* Modern and responsive user interface
-* AI-powered chat assistant using Google Gemini
-* User authentication
-* Product management
-* Shopping experience with dynamic content
-* Admin dashboard
-* REST API integration
-* MongoDB database support
-* Secure backend using JWT authentication
-* Fast and optimized performance
-* Mobile-friendly design
+- User registration and login
+- JWT-based authentication
+- AI chatbot powered by Google Gemini
+- Product listing and management
+- Admin dashboard
+- Responsive design
+- REST API integration
+- MongoDB database
+- Secure password hashing with Bcrypt
+- Fast frontend using Vite
 
 ---
 
@@ -28,43 +27,43 @@ The project includes both frontend and backend functionality with a responsive u
 
 ### Frontend
 
-* React
-* TypeScript
-* Vite
-* CSS
-* Motion
-* Recharts
+- React
+- TypeScript
+- Vite
+- CSS
+- Motion
+- Recharts
 
 ### Backend
 
-* Node.js
-* Express.js
+- Node.js
+- Express.js
 
 ### Database
 
-* MongoDB
-* Mongoose
-
-### AI
-
-* Google Gemini API
+- MongoDB
+- Mongoose
 
 ### Authentication
 
-* JSON Web Token (JWT)
-* Bcrypt.js
+- JWT
+- Bcrypt.js
+
+### AI Integration
+
+- Google Gemini API
 
 ---
 
 ## Project Structure
 
 ```text
-TechMart/
+TechMart
 │
-├── src/                 # Frontend source code
-├── server/              # Backend controllers and database
-├── data/                # Sample data
-├── assets/              # Static assets
+├── src/
+├── server/
+├── data/
+├── assets/
 ├── package.json
 ├── server.ts
 └── README.md
@@ -74,48 +73,31 @@ TechMart/
 
 ## Installation
 
-### 1. Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/techmart.git
+git clone https://github.com/Saadii010/TechMart.git
 ```
 
-### 2. Open the project
+Move into the project directory:
 
 ```bash
-cd techmart
+cd TechMart
 ```
 
-### 3. Install dependencies
+Install the required packages:
 
 ```bash
 npm install
 ```
 
-### 4. Create an environment file
-
-Create a file named:
-
-```text
-.env.local
-```
-
-Add your Gemini API key:
+Create a `.env.local` file and add the required environment variables:
 
 ```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-```
-
-If your project uses MongoDB authentication, also add:
-
-```env
-MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
+MONGODB_URI=YOUR_MONGODB_URI
 JWT_SECRET=YOUR_SECRET_KEY
 ```
-
----
-
-## Run the Project
 
 Start the development server:
 
@@ -123,9 +105,7 @@ Start the development server:
 npm run dev
 ```
 
----
-
-## Build for Production
+To create a production build:
 
 ```bash
 npm run build
@@ -133,30 +113,17 @@ npm run build
 
 ---
 
-## Technologies Used
-
-* React
-* TypeScript
-* Vite
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* Google Gemini API
-* JWT Authentication
-* Bcrypt.js
-
----
-
 ## Future Improvements
 
-* Payment gateway integration
-* Wishlist feature
-* Order tracking
-* Product reviews and ratings
-* Email notifications
-* Multi-language support
-* AI product recommendations
+Some features planned for future updates include:
+
+- Online payment integration
+- Wishlist functionality
+- Product reviews and ratings
+- Order tracking
+- Email notifications
+- AI-based product recommendations
+- Multi-language support
 
 ---
 
@@ -164,14 +131,12 @@ npm run build
 
 **Muhammad Saad**
 
-BS Computer Science
+Frontend Developer | MERN Stack Developer | Generative AI Enthusiast
 
-Frontend & Generative AI Developer
-
-GitHub: https://github.com/your-username
+GitHub: https://github.com/Saadii010
 
 ---
 
 ## License
 
-This project is created for educational and portfolio purposes. Feel free to use it as a learning resource.
+This project is intended for educational and portfolio purposes. Feel free to explore the code and use it as a learning resource.

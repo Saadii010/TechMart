@@ -494,6 +494,8 @@ export async function initMongoose() {
     await mongoose.connect(uri, { serverSelectionTimeoutMS: 3000 });
     console.log("Connected successfully to MongoDB Atlas! Dynamic sync active.");
   } catch (error) {
-    console.log("MongoDB is currently offline or unreachable. Seamlessly utilizing local container database instead.");
-  }
+  console.error("MongoDB Connection Error:");
+  console.error(error);
+  console.log("MongoDB is currently offline or unreachable. Seamlessly utilizing local container database instead.");
+}
 }

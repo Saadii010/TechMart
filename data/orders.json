@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ORD-98765",
+    "userId": "user-demo",
+    "userName": "Demo User",
+    "userEmail": "saadkust5481@gmail.com",
+    "items": [
+      {
+        "productId": "prod-sony-wh1000xm5",
+        "name": "Sony WH-1000XM5 Wireless Headphones",
+        "brand": "Sony",
+        "price": 399,
+        "quantity": 1,
+        "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=100&q=80"
+      }
+    ],
+    "totalAmount": 399,
+    "discountAmount": 59.85,
+    "finalAmount": 339.15,
+    "status": "delivered",
+    "shippingAddress": {
+      "name": "Demo User",
+      "phone": "+1 234 567 8900",
+      "address": "123 Tech Avenue",
+      "city": "Silicon Valley",
+      "country": "USA"
+    },
+    "paymentMethod": "Credit Card",
+    "trackingNumber": "TRK-SONY-77382",
+    "createdAt": "2026-07-22T12:08:12.698Z"
+  },
+  {
+    "id": "ORD-54321",
+    "userId": "user-demo",
+    "userName": "Demo User",
+    "userEmail": "saadkust5481@gmail.com",
+    "items": [
+      {
+        "productId": "prod-iphone-15-pro",
+        "name": "iPhone 15 Pro Max",
+        "brand": "Apple",
+        "price": 1199,
+        "quantity": 1,
+        "thumbnail": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=100&q=80"
+      }
+    ],
+    "totalAmount": 1199,
+    "discountAmount": 0,
+    "finalAmount": 1199,
+    "status": "shipped",
+    "shippingAddress": {
+      "name": "Demo User",
+      "phone": "+1 234 567 8900",
+      "address": "123 Tech Avenue",
+      "city": "Silicon Valley",
+      "country": "USA"
+    },
+    "paymentMethod": "Cash on Delivery",
+    "trackingNumber": "TRK-APPLE-12294",
+    "createdAt": "2026-07-24T00:08:12.698Z"
+  }
+]

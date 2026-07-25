@@ -1,0 +1,24 @@
+[
+  {
+    "id": "t-1",
+    "userId": "user-demo",
+    "userName": "Demo User",
+    "userEmail": "saadkust5481@gmail.com",
+    "subject": "Delayed Shipping inquiry",
+    "message": "Hello, my order #ORD-12345 has not shipped yet. Can you please check the status?",
+    "status": "replied",
+    "responses": [
+      {
+        "role": "user",
+        "message": "Hello, my order #ORD-12345 has not shipped yet. Can you please check the status?",
+        "createdAt": "2026-07-24T10:08:12.698Z"
+      },
+      {
+        "role": "admin",
+        "message": "Hi Demo, we apologize for the short delay. Your order has been processed and is scheduled for dispatch today. You will receive a tracking code shortly!",
+        "createdAt": "2026-07-24T11:08:12.698Z"
+      }
+    ],
+    "createdAt": "2026-07-24T10:08:12.698Z"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "rev-1",
+    "productId": "prod-macbook-pro-16",
+    "userId": "user-demo",
+    "userName": "Alex Johnson",
+    "rating": 5,
+    "comment": "Incredible speed. The M3 Max compile times are insanely fast. Best laptop I have ever owned.",
+    "createdAt": "2026-07-24T12:08:12.697Z"
+  },
+  {
+    "id": "rev-2",
+    "productId": "prod-galaxy-s24-ultra",
+    "userId": "user-demo",
+    "userName": "Sarah Connor",
+    "rating": 5,
+    "comment": "The camera zoom and AI photo editing are magical! Screen brightness is brilliant even in direct sunlight.",
+    "createdAt": "2026-07-24T12:08:12.698Z"
+  },
+  {
+    "id": "rev-3",
+    "productId": "prod-sony-wh1000xm5",
+    "userId": "user-demo",
+    "userName": "David Miller",
+    "rating": 4,
+    "comment": "Superb sound stage and class-leading noise cancellation. Only downside is the head band size is a bit tight.",
+    "createdAt": "2026-07-24T12:08:12.698Z"
+  }
+]

@@ -1,3 +1,8 @@
+import dotenv from 'dotenv';
+dotenv.config();
+console.log(process.env.MONGODB_URI);
+
+
 import express from 'express';
 import path from 'path';
 import { createServer as createViteServer } from 'vite';
